@@ -1,0 +1,10 @@
+.todo {
+    display: flex;
+    align-items: center;
+    max-height: 42rem;
+    margin-bottom: 0.7rem;
+    padding: 0.25rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    overflow-y: scroll;
+}

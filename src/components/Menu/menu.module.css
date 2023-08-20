@@ -1,0 +1,24 @@
+.menu {
+    text-align: left;
+    border-radius: 1rem;
+    margin: 1rem;
+    background-color: rgb(246, 246, 246);
+}
+
+.menu p {
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bolder;
+}
+
+.search {
+    margin: 0.5rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 0.25rem 0.25rem 0.25rem 1.5rem;
+    background-image: url('/img/search.png');
+    background-repeat: no-repeat;
+    background-position: 0.32rem 0.32rem;
+    background-size: 1rem;
+    background-clip: text;
+}

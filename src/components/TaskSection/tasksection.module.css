@@ -1,0 +1,13 @@
+.taskBtn:hover {
+    cursor: pointer;
+    background-color: darkgrey;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+}
+
+.taskBtn {
+    padding-top:0.25rem;
+    padding-bottom:0.25rem;
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+}

@@ -1,0 +1,19 @@
+.card {
+    width: 17rem;
+    height: 17rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.personal {
+    background-color: rgb(255, 183, 170);
+}
+
+.work {
+    background-color: rgb(192, 255, 193);
+}
+.etc {
+    background-color: rgb(251, 234, 177);
+}

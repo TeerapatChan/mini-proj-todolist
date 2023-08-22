@@ -1,4 +1,4 @@
-.taskContainer {
+.container {
     font-size: 1rem;
     display: flex;
     flex-direction: column;
@@ -6,7 +6,7 @@
     margin: 1rem;
 }
 
-.taskContainer img {
+.container img {
     width: 1.5rem;
     height: 1.5rem;
     margin-right: 0.5rem;

@@ -8,3 +8,9 @@
     justify-content: flex-start;
     overflow-y: scroll;
 }
+
+.todoContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}

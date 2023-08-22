@@ -17,3 +17,20 @@
 .etc {
     background-color: rgb(251, 234, 177);
 }
+
+.add {
+    background-color: rgb(234, 234, 234);
+}
+
+.add img {
+    width: 5rem;
+    height: 5rem;
+    position: relative;
+    top: 35%;
+}
+
+.add:hover {
+    cursor: pointer;
+    background-color: darkgrey;
+    border-radius: 0.5rem;
+}

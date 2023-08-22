@@ -1,7 +1,7 @@
-.task  {
+.button  {
     display: flex;
     align-items: center;
-    margin-bottom: 0.7rem;
+    margin-bottom: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
     padding: 0.25rem;
@@ -9,11 +9,13 @@
     gap: 0.5rem;
 }
 
-.task:hover {
+.button:hover {
     cursor: pointer;
     background-color: darkgrey;
     border-radius: 0.5rem;
 }
 
-
+.logout {
+    margin-right: 10rem;
+}
 

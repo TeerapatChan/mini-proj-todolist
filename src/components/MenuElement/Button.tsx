@@ -21,6 +21,7 @@ export function ListButton({ type}: Props) {
         <div className={`${styles.button} ${styles[type]}`}>
             <Color type={type}></Color>
             {type.charAt(0).toUpperCase() + type.slice(1)}
+            <Image src="/img/close.png" alt="close" width={516} height={516} className={styles.close}></Image>
         </div>
     );
 }

@@ -5,6 +5,8 @@
     padding: 0.5rem;
     border-radius: 0.5rem;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .personal {
@@ -27,10 +29,41 @@
     height: 5rem;
     position: relative;
     top: 35%;
+    left: 35%;
 }
 
 .add:hover {
     cursor: pointer;
     background-color: darkgrey;
     border-radius: 0.5rem;
+}
+
+.close {
+    position: relative;
+    left: 45%;
+    width: 1rem;
+    height: 1rem;
+}
+
+.close:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.upcoming, .completed {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.upcoming:hover, .completed:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.activity {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: auto;
+    gap: 0.25rem;
 }
